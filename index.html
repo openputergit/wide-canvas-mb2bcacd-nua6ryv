@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ilips Infotech Private Limited</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        .service-card:hover {
+            transform: translateY(-5px);
+            transition: all 0.3s ease;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%);
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex-shrink-0">
+                    <h1 class="text-2xl font-bold text-blue-600">Ilips</h1>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="#services" class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md">Services</a>
+                        <a href="#industries" class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md">Industries</a>
+                        <a href="#contact" class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="gradient-bg">
+        <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl font-bold text-white mb-4">Welcome to Ilips Infotech Private Limited</h1>
+            <p class="text-xl text-white">Your One-Stop Solution for Business Software & Services</p>
+        </div>
+    </div>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16 px-4">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-12">Our Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service Cards -->
+                <div class="service-card bg-white rounded-lg shadow-lg p-6">
+                    <i class="bi bi-shop text-4xl text-blue-600 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-3">Software Marketplace</h3>
+                    <p class="text-gray-600">One-stop solution for business software & CRM selection</p>
+                </div>
+                
+                <div class="service-card bg-white rounded-lg shadow-lg p-6">
+                    <i class="bi bi-cloud text-4xl text-blue-600 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-3">Server & Cloud Hosting</h3>
+                    <p class="text-gray-600">Reliable hosting solutions with 99.99% uptime guarantee</p>
+                </div>
+
+                <div class="service-card bg-white rounded-lg shadow-lg p-6">
+                    <i class="bi bi-gift text-4xl text-blue-600 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-3">Corporate Gifting</h3>
+                    <p class="text-gray-600">Digital gift cards and rewards solutions</p>
+                </div>
+
+                <div class="service-card bg-white rounded-lg shadow-lg p-6">
+                    <i class="bi bi-chat-dots text-4xl text-blue-600 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-3">SMS & DLT Services</h3>
+                    <p class="text-gray-600">Secure and compliant messaging solutions</p>
+                </div>
+
+                <div class="service-card bg-white rounded-lg shadow-lg p-6">
+                    <i class="bi bi-cash-stack text-4xl text-blue-600 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-3">CMS Services</h3>
+                    <p class="text-gray-600">Cash collection services for banks & NBFCs</p>
+                </div>
+
+                <div class="service-card bg-white rounded-lg shadow-lg p-6">
+                    <i class="bi bi-credit-card text-4xl text-blue-600 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-3">PG Services</h3>
+                    <p class="text-gray-600">Secure payment gateway solutions</p>
+                    <a href="https://gleampay.in" class="text-blue-600 hover:underline mt-2 inline-block">Visit Gleampay</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Industries Section -->
+    <section id="industries" class="py-16 px-4 bg-gray-100">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-12">Industries We Serve</h2>
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                <div class="text-center p-4">
+                    <i class="bi bi-book text-3xl text-blue-600 mb-2"></i>
+                    <p>Education</p>
+                </div>
+                <div class="text-center p-4">
+                    <i class="bi bi-cart text-3xl text-blue-600 mb-2"></i>
+                    <p>Retail & Ecommerce</p>
+                </div>
+                <!-- Add more industries similarly -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 px-4">
+        <div class="max-w-7xl mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-8">Contact Us</h2>
+            <div class="bg-white rounded-lg shadow-lg p-8 max-w-2xl mx-auto">
+                <p class="mb-4"><i class="bi bi-geo-alt"></i> Turner Road Lane C-8, Clementtown, Dehradun, Near PNB Bank, Uttrakhand – 248002</p>
+                <p><i class="bi bi-telephone"></i> <a href="tel:9193233366" class="text-blue-600 hover:underline">919-323-3366</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <p>&copy; 2024 Ilips Infotech Private Limited. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+<script>document.body.addEventListener('wheel', e => { if (!e.ctrlKey) return; e.preventDefault(); return }, { passive: false })</script>
+	</body>
+</html>
